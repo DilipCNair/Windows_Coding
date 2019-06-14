@@ -1,0 +1,223 @@
+﻿
+body {
+    margin:0;
+    overflow:auto;
+}
+
+#Top_above{
+    background-color: rgb(73,130,5);
+    font-size: x-large;
+    position: absolute;
+    color: #FFFFFF;
+    font-style: italic;
+    font-weight: bold;
+    font-family: "Comic Sans MS";
+}
+
+#Top_below{
+    background-color:rgb(102,180,7);
+
+    
+}
+
+#Bottom_above{
+
+    background-color:rgb(102,180,7);
+
+}
+
+#Bottom_below{
+
+    background-color:rgb(73,130,5);
+
+}
+
+#bgpic{
+    background-image:url(images/art-4.jpg);
+    background-size:1349px 641px;
+    margin:0;
+    position:static;
+   
+
+}
+
+.lbl
+{
+    color: white;
+    padding-left: 570px;
+    font-family: 'Comic Sans MS';
+    font-size: 300%;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.Login
+{
+    padding-left: 380px;
+    font-family: 'Comic Sans MS';
+    font-weight: 900;
+    font-style:italic;
+    display:none;
+}
+
+
+.Sign_up
+{
+    font-family: 'Comic Sans MS';
+    padding-left: 450px;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: normal;
+    text-decoration: none;
+}
+p{
+    display:inline-block;
+}
+
+.doc
+{
+    /*position:absolute;/*for fixed position*/ 
+    position:fixed;/*to float along with scroll*/
+    margin-top:75px;
+    margin-left:20px;
+    margin-right:950px;
+    text-align:justify;
+    font-style:italic;
+    font-family:'Comic Sans MS';
+    font-size:large;
+    line-height:25px;
+    background-color:rgba(250,235,215,0.75);
+    border-width:1px;
+    padding:25px;
+    border-bottom-left-radius:15px;
+    border-top-right-radius:15px;
+    border-bottom-right-radius:15px;
+    /*display:none;*/
+    
+}
+
+#lmid{
+    position:fixed;
+    margin-top:74px;
+    background-color:rgb(73,130,5);
+    margin-left:500px;
+    padding-right:300px;
+    color:white;
+    padding:25px;
+    font-family:'Comic Sans MS';
+    font-size:large;
+    font-weight:bold;
+    font-style:italic;
+    
+}
+
+.txtbox1{
+    position:absolute;
+    margin-top:180px;
+    margin-left:515px;
+    border-radius:5px;  
+   
+ 
+    
+}
+.txtbox2{
+    position:absolute;
+    margin-top:290px;
+    margin-left:515px;
+    border-radius:5px;   
+}
+
+
+.text{
+    /*position:absolute;/*for fixed position*/ 
+    position:fixed;/*to float along with scroll*/
+    margin-top:74px;
+    margin-left:950px;
+    margin-right:25px;
+    text-align:justify;
+    font-style:italic;
+    font-family:'Comic Sans MS';
+    font-size:large;
+    line-height:25px;
+    background-color:rgba(250,235,215,0.75);
+    border-width:1px;
+    padding:25px;
+    border-bottom-left-radius:15px;
+    border-top-left-radius:15px;
+    border-bottom-right-radius:15px;
+    /*display:none;*/
+
+}
+
+#box{
+
+     border-radius:15px;
+     position:absolute;
+     margin-top:30px;
+     margin-left:500px;
+     width: 370px; 
+     height: 425px; 
+     background-color:rgba(73,130,5,0.9);
+}
+.btn{
+     font-size:140%;
+     position: absolute;
+     font-style: italic;
+     font-family: 'Comic Sans MS';
+     font-weight: bold;
+     margin-top: 330px;
+     margin-left: 515px;
+     left: 1px;
+     top: 203px;
+     right: 490px;
+     height: 40px;
+     width: 300px;
+     border-radius:8px;
+
+}
+.mlbl{
+     position:absolute;
+     font-style:italic;
+     font-family:'Comic Sans MS';
+     font-weight:bold;
+     font-size:x-large;
+     margin-left:20px;
+     margin-top:20px;
+
+}
+
+.lbl1{
+     font-style:italic;
+     font-family:'Comic Sans MS';
+     font-weight:bold;
+     font-size:x-large;
+     margin-top:140px;
+     margin-left:516px;
+     color:white;
+     position:absolute;
+}
+.lbl2{
+     font-style:italic;
+     font-family:'Comic Sans MS';
+     font-weight:bold;
+     font-size:x-large;
+     margin-top:190px;
+     margin-left:516px;
+     color:white;
+     position:absolute;
+}
+
+.lbl3{
+     font-style:italic;
+     font-family:'Comic Sans MS';
+     font-weight:bold;
+     font-size:300%;
+     margin-top:50px;
+     margin-left:570px;
+     color:white;
+     position:absolute;
+}
+
+.people{
+    position:absolute;
+}

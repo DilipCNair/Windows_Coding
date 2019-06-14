@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html ng-app="myModule">
+<head>
+    <meta charset="utf-8" />
+    <title>Login Form</title>
+    <script src="Scripts/angular.js"></script>
+    <script src="Scripts/MyScript.js"></script>
+    <link href="CSS/bootstrap.css" rel="stylesheet" />
+</head>
+
+<body ng-controller="myController">
+
+    <h1>{{message}}</h1>
+    Enter your name : <input type="text" class="form-control col-3" ng-model="name"/>
+    <br/>
+    <p ng-bind="name"></p>
+</body>
+</html>

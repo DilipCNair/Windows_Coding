@@ -1,0 +1,19 @@
+﻿<Window x:Class="WPF_Navigation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Navigation"
+        mc:Ignorable="d"
+        Title="Testing" 
+        Height="{x:Static SystemParameters.PrimaryScreenHeight}" 
+        Width="{x:Static SystemParameters.PrimaryScreenWidth}"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Frame x:Name="mainPage" NavigationUIVisibility="Hidden" Margin="0,50,0,0"/>
+        <Button x:Name="button" Content="Goto Page 1" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="95" Height="25" Click="b1" Background="#FF0880F7" Foreground="White" BorderBrush="White"/>
+        <Button x:Name="button1" Content="Home" HorizontalAlignment="Left" Margin="220,10,0,0" VerticalAlignment="Top" Width="80" Height="25" Click="bh"/>
+        <Button x:Name="button2" Content="Goto Page 2" HorizontalAlignment="Left" Margin="422,10,0,0" VerticalAlignment="Top" Width="85" Height="25" Click="b2"/>
+
+    </Grid>
+</Window>

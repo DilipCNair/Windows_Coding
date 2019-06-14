@@ -1,0 +1,132 @@
+﻿
+body {
+    margin:0;
+    overflow:auto;
+}
+
+#Top_above{
+    background-color:rgb(73,130,5);
+    
+
+}
+
+#Top_below{
+    background-color:rgb(102,180,7);
+
+    
+}
+
+#Bottom_above{
+
+    background-color:rgb(102,180,7);
+
+}
+
+#Bottom_below{
+
+    background-color:rgb(73,130,5);
+
+}
+
+#bgpic{
+    background-image:url(images/art-4.jpg);
+    background-size:1349px 641px;
+    margin:0;
+    position:static;
+   
+
+}
+
+.lbl
+{
+    color:black;
+    padding-left:570px;
+    font-family:'Comic Sans MS';
+    font-size:300%;
+    font-style:italic;
+    font-weight:bold;
+}
+
+.Login
+{
+    padding-left: 380px;
+    font-family: 'Comic Sans MS';
+    font-weight: 900;
+    font-style:italic;
+    display:none;
+}
+
+
+.Sign_up
+{
+    font-family:'Comic Sans MS';
+    padding-left:450px;
+    font-weight: 900;
+    font-style:italic;
+}
+p{
+    display:inline-block;
+}
+
+.doc
+{
+    /*position:absolute;/*for fixed position*/ 
+    position:fixed;/*to float along with scroll*/
+    margin-top:75px;
+    margin-left:20px;
+    margin-right:950px;
+    text-align:justify;
+    font-style:italic;
+    font-family:'Comic Sans MS';
+    font-size:large;
+    line-height:25px;
+    background-color:rgba(250,235,215,0.75);
+    border-width:1px;
+    padding:25px;
+    border-bottom-left-radius:15px;
+    border-top-right-radius:15px;
+    border-bottom-right-radius:15px;
+    /*display:none;*/
+    
+}
+.Login{
+    position:fixed;/*to float along with scroll*/
+    margin-top:75px;
+    margin-left:300px;
+    margin-right:950px;
+    text-align:justify;
+    font-style:italic;
+    font-family:'Comic Sans MS';
+    font-size:large;
+    line-height:25px;
+    background-color:rgba(73,130,5,0.75);
+    border-width:1px;
+    padding:25px;
+    border-bottom-left-radius:15px;
+    border-top-right-radius:15px;
+    border-bottom-right-radius:15px;
+
+}
+
+
+
+.text{
+    /*position:absolute;/*for fixed position*/ 
+    position:fixed;/*to float along with scroll*/
+    margin-top:74px;
+    margin-left:950px;
+    margin-right:50px;
+    text-align:justify;
+    font-style:italic;
+    font-family:'Comic Sans MS';
+    font-size:large;
+    line-height:25px;
+    background-color:rgba(250,235,215,0.75);
+    border-width:1px;
+    padding:25px;
+    border-bottom-left-radius:15px;
+    border-top-left-radius:15px;
+    border-bottom-right-radius:15px;
+
+}
+

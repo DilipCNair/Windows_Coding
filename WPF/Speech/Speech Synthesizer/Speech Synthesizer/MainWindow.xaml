@@ -1,0 +1,12 @@
+﻿<Window x:Class="Speech_Synthesizer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Speech_Synthesizer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="Button_Test" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Speak" Click="Button_Test_Clicked" Height="35" Margin="0" Width="85" Background="#FF1359BD" BorderBrush="#FF1359BD" Foreground="White"/>
+    </Grid>
+</Window>

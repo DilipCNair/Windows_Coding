@@ -1,0 +1,58 @@
+﻿<Window x:Class="Windows_Presentation_Foundation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Windows_Presentation_Foundation"
+        mc:Ignorable="d"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        Title="MainWindow" Height="350" Width="525">
+
+    <!--<Grid Name="pnlMainGrid" Background="LightBlue">
+        -->
+    <!--<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="72">
+                        Hello, WPF!
+                </TextBlock>-->
+    <!--
+
+    </Grid>-->
+
+    <!--<Window.Resources>
+        <sys:String x:Key="ComboBoxTitle">Items:</sys:String>
+
+        <x:Array x:Key="ComboBoxItems" Type="sys:String">
+            <sys:String>Item #1</sys:String>
+            <sys:String>Item #2</sys:String>
+            <sys:String>Item #3</sys:String>
+        </x:Array>
+
+        <LinearGradientBrush x:Key="WindowBackgroundBrush">
+            <GradientStop Offset="0" Color="Silver"/>
+            <GradientStop Offset="1" Color="Gray"/>
+        </LinearGradientBrush>
+    </Window.Resources>-->
+
+    <StackPanel>
+
+        <ComboBox Name = "comboBox"  Margin = "50" Width = "100">
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                    <GradientStop Color="#FFF12626" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+            <ComboBoxItem Content = "Green" />
+            <ComboBoxItem  Content = "Yellow" IsSelected = "True" />
+            <ComboBoxItem Content = "Orange" />
+        </ComboBox>
+
+        <TextBox  Name = "textBox" Margin = "50" 
+         Width = "100" Height = "23" VerticalAlignment = "Top" 
+         Text  = "{Binding ElementName = comboBox, Path = SelectedItem.Content, 
+              Mode  = TwoWay, UpdateSourceTrigger = PropertyChanged}" 
+         Background = "{Binding ElementName = comboBox, Path = SelectedItem.Content}">
+        </TextBox>
+
+    </StackPanel>
+
+</Window>
